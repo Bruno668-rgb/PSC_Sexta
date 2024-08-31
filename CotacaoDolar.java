@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Idade{
+public class CotacaoDolar{
     public static void main (String args[]){
         Scanner teclado = new Scanner (System.in);
     Double ValorReais, Dolar, CotacaoDolar ; 
