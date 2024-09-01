@@ -2,13 +2,13 @@ import java.util.*;
 public class Salario{
     public static void main (String args[]){
         Scanner teclado = new Scanner(System.in);
-    double SalarioMinimo, SalarioBruto, Valor;
+    int SalarioMinimo, SalarioBruto, Valor;
     
         System.out.println("Informe o salário mínimo: ");
-         SalarioMinimo = teclado.nextDouble();
+         SalarioMinimo = teclado.nextInt();
     
          System.out.println("Informe o salário bruto que você ganha:");
-         SalarioBruto = teclado.nextDouble();
+         SalarioBruto = teclado.nextInt();
 
          Valor = SalarioBruto / SalarioMinimo ; 
 
