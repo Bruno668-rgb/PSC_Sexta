@@ -12,7 +12,7 @@ public class Gorjeta{
             if (ValorConta < 0) {
                 System.out.println("Conta inválida, ela não pode ser negativa.");
             }
-        } while (ValorConta < 0); 
+        } while (ValorConta < 0);
 
         
         Gorjeta = 0.10 * ValorConta;
